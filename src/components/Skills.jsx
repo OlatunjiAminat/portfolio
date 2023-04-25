@@ -10,10 +10,11 @@ import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 // import Mongo from '../assets/mongo.png';
 import Python from "../assets/Python.png";
-import AdobePhotoshop from "../assets/adobe-photoshop.png";
-import Figma from "../assets/figma.png";
+// import AdobePhotoshop from "../assets/adobe-photoshop.png";
+import Bootstrap from "../assets/Bootstrap.png";
 import NextJs from "../assets/nextjs.png";
-import VueJs from "../assets/vuejs-logo.png";
+// import VueJs from "../assets/vuejs-logo.png";
+import Redux from "../assets/redux.png";
 
 const Skills = () => {
   return (
@@ -49,38 +50,38 @@ const Skills = () => {
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={NextJs} alt="HTML icon" />
-            <p className="my-4">NEXTJS</p>
+            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
+            <p className="my-4">TAILWIND</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={GitHub} alt="HTML icon" />
             <p className="my-4">GITHUB</p>
           </div>
-
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Tailwind} alt="HTML icon" />
-            <p className="my-4">TAILWIND</p>
+            <img className="w-20 mx-auto" src={Bootstrap} alt="HTML icon" />
+            <p className="my-4">BOOTSTRAP</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={VueJs} alt="HTML icon" />
-            <p className="my-4">VUE JS</p>
+            <img className="w-20 mx-auto" src={Redux} alt="HTML icon" />
+            <p className="my-4">REDUX</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={NextJs} alt="HTML icon" />
+            <p className="my-4">NEXTJS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Python} alt="HTML icon" />
             <p className="my-4">PYTHON</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Figma} alt="HTML icon" />
-            <p className="my-4">FIGMA</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+          
+          {/* <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-20 mx-auto"
               src={AdobePhotoshop}
               alt="HTML icon"
             />
             <p className="my-4">ADOBE PHOTOSHOP</p>
-          </div>
+          </div> */}
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={FireBase} alt="HTML icon" />
             <p className="my-4">FIREBASE</p>

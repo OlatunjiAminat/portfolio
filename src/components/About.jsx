@@ -19,17 +19,13 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-[28px] font-bold">
             <p>
-              Hi. I'm Rasheed Olatunde, nice to meet you. Please take a look
+              Hi. I'm Aminat Olatunji, nice to meet you. Please take a look
               around.
             </p>
           </div>
           <div>
             <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?
+              Hi there! I'm a frontend developer with a passion for bringing a unique blend of technical expertise and creative flair to every project I work on. I love nothing more than bringing my clients' visions to life through stunning, custom-designed websites that are optimized for performance and user experience. In my free time, I enjoy experimenting with new programming languages and exploring the latest trends in web design.
             </p>
           </div>
         </div>
